@@ -18,6 +18,29 @@
           <td>{{userDetails.email}}</td>
       </tr>
       <tr>
+        <div class="form-group">
+                <fieldset class="form-group">
+                    <label>Upload Image</label>
+                    {{imageError}}
+                    <div class="custom-file fileInputProfileWrap">
+                        <input type="file" (change)="fileChangeEvent($event)" class="fileInputProfile">
+                        <div class="img-space">
+    
+                            <ng-container *ngIf="isImageSaved; else elseTemplate">
+                                <img [src]="cardImageBase64" />
+                            </ng-container>
+                            <ng-template #elseTemplate>
+    
+                                <img src="./../../assets/img/placeholder.png" class="img-responsive">
+                            </ng-template>
+    
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <a class="btn btn-danger" (click)="removeImage()" *ngIf="isImageSaved">Remove</a>
+      </tr>
+      <tr>
           <td colspan="2" class="text-center">
               <input type="button" (click)="onLogout()" value="Logout" />
           </td>
