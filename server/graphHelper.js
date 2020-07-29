@@ -1,16 +1,16 @@
 var sampleDataArr = require('./sampleData.json')
 var moment = require('moment')
 
-var res = {
-  data: []
-}
-
 let acceptMap = new Map();
 let rejectMap = new Map();
 let errMap = new Map();
 let totalMap = new Map();
 
 module.exports.dataExtractor = async (data) => {
+  var res = {
+    data: []
+  }
+  
   return new Promise(async function (resolve, reject) {
     var model = {}
 
@@ -260,6 +260,7 @@ module.exports.dataExtractor = async (data) => {
 
       }
     }
+    console.log(JSON.stringify(res))
     return resolve(res)
   })
 
