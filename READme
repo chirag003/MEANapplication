@@ -1,0 +1,3 @@
+Steps to run the application
+#1. Go to the server folder and run app.js ( node app.js ) 
+#2 Go to the Angular folder and run the Angular app ( npm start ) 
