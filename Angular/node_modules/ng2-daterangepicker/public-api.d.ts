@@ -1,0 +1,3 @@
+export * from './lib/ng2-daterangepicker.service';
+export * from './lib/ng2-daterangepicker.component';
+export * from './lib/ng2-daterangepicker.module';

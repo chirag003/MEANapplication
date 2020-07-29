@@ -2,9 +2,12 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const _ = require('lodash');
 
+const graphData = require('../graphHelper.js')
+
 const User = mongoose.model('User');
 
 module.exports.register = (req, res, next) => {
+    console.log(req.body)
     var user = new User();
     user.fullName = req.body.fullName;
     user.email = req.body.email;
@@ -43,4 +46,9 @@ module.exports.userProfile = (req, res, next) =>{
                 return res.status(200).json({ status: true, user : _.pick(user,['fullName','email']) });
         }
     );
+}
+
+module.exports.showData = async (req,res,next)=>{
+    let response = await graphData.dataExtractor(req.body)
+    return res.send(response)
 }

@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule,HTTP_INTERCEPTORS } from '@angular/common/http';
+import { DateRangePickerModule } from '@syncfusion/ej2-angular-calendars';
+
 // components
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
@@ -16,6 +18,7 @@ import { UserService } from './shared/user.service';
 //other
 import { AuthGuard } from './auth/auth.guard';
 import { AuthInterceptor } from './auth/auth.interceptor';
+import { GraphComponent } from './graph/graph.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +26,15 @@ import { AuthInterceptor } from './auth/auth.interceptor';
     UserComponent,
     SignUpComponent,
     UserProfileComponent,
-    SignInComponent
+    SignInComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
-    HttpClientModule
+    HttpClientModule,
+    DateRangePickerModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,

@@ -1,0 +1,402 @@
+[
+   {
+      "date": "01/8/2019",
+      "amount": 9109,
+      "status": "REJECT"
+   },
+   {
+      "date": "01/25/2019",
+      "amount": 20063,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/25/2019",
+      "amount": 25000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/25/2019",
+      "amount": 35407,
+      "status": "REJECT"
+   },
+   {
+      "date": "01/25/2019",
+      "amount": 11962,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/29/2019",
+      "amount": 20101,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/29/2019",
+      "amount": 50000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/29/2019",
+      "amount": 25000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/31/2019",
+      "amount": 1589,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/31/2019",
+      "amount": 60000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "01/31/2019",
+      "amount": 20000,
+      "status": "ERR"
+   },
+   {
+      "date": "02/12/2019",
+      "amount": 23923,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "02/12/2019",
+      "amount": 20071,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "02/13/2019",
+      "amount": 30000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "02/13/2019",
+      "amount": 5359,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 35000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 95598,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 75000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 4861,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 20577,
+      "status": "ERR"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 60000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 11967,
+      "status": "ERR"
+   },
+   {
+      "date": "03/5/2019",
+      "amount": 100000,
+      "status": "REJECT"
+   },
+   {
+      "date": "03/12/2019",
+      "amount": 95694,
+      "status": "REJECT"
+   },
+   {
+      "date": "03/12/2019",
+      "amount": 20009,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/25/2019",
+      "amount": 25000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/27/2019",
+      "amount": 35000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/27/2019",
+      "amount": 143966,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/28/2019",
+      "amount": 500000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/28/2019",
+      "amount": 124402,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/31/2019",
+      "amount": 51641,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "03/31/2019",
+      "amount": 50000,
+      "status": "REJECT"
+   },
+   {
+      "date": "03/31/2019",
+      "amount": 23593,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "05/31/2019",
+      "amount": 35822,
+      "status": "ERR"
+   },
+   {
+      "date": "05/31/2019",
+      "amount": 13951,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "05/31/2019",
+      "amount": 38277,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "05/31/2019",
+      "amount": 28708,
+      "status": "REJECT"
+   },
+   {
+      "date": "06/22/2019",
+      "amount": 35000,
+      "status": "REJECT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 15170,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 15026,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 9507,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 30000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 26004,
+      "status": "REJECT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 50144,
+      "status": "REJECT"
+   },
+   {
+      "date": "07/30/2019",
+      "amount": 159432,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/22/2019",
+      "amount": 58240,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/22/2019",
+      "amount": 100760,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/22/2019",
+      "amount": 50002,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/22/2019",
+      "amount": 23406,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/23/2019",
+      "amount": 70813,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/23/2019",
+      "amount": 20000,
+      "status": "ERR"
+   },
+   {
+      "date": "08/23/2019",
+      "amount": 24994,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/23/2019",
+      "amount": 15311,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/23/2019",
+      "amount": 26937,
+      "status": "REJECT"
+   },
+   {
+      "date": "08/27/2019",
+      "amount": 31507,
+      "status": "REJECT"
+   },
+   {
+      "date": "08/27/2019",
+      "amount": 28708,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/27/2019",
+      "amount": 5328,
+      "status": "ERR"
+   },
+   {
+      "date": "08/27/2019",
+      "amount": 25359,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/28/2019",
+      "amount": 15311,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/28/2019",
+      "amount": 15000,
+      "status": "REJECT"
+   },
+   {
+      "date": "08/28/2019",
+      "amount": 19139,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/28/2019",
+      "amount": 191266,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/31/2019",
+      "amount": 50772,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/31/2019",
+      "amount": 50000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "08/31/2019",
+      "amount": 200000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/16/2019",
+      "amount": 25001,
+      "status": "ERR"
+   },
+   {
+      "date": "09/16/2019",
+      "amount": 47847,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/16/2019",
+      "amount": 50000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/16/2019",
+      "amount": 19139,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 6091,
+      "status": "REJECT"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 20564,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 28708,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 20096,
+      "status": "ERR"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 51485,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/17/2019",
+      "amount": 66986,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/27/2019",
+      "amount": 20000,
+      "status": "REJECT"
+   },
+   {
+      "date": "09/27/2019",
+      "amount": 25000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/27/2019",
+      "amount": 35000,
+      "status": "REJECT"
+   },
+   {
+      "date": "09/28/2019",
+      "amount": 25000,
+      "status": "ACCEPT"
+   },
+   {
+      "date": "09/28/2019",
+      "amount": 1600,
+      "status": "ACCEPT"
+   }
+]

@@ -1,0 +1,12 @@
+<div id='datepicker' class="form-group">
+  <fieldset class="form-group">
+      <div class="custom-file fileInputProfileWrap">
+        <ejs-daterangepicker #ejDateRangePickers format='yyyy-MM-dd'[(ngModel)]='value' width="230px" (change)='changeEvent($event)'></ejs-daterangepicker>
+          <input id='showButton' type="submit" (submit)="changeEvent($event)" value='Show'>
+          </div>
+  </fieldset>
+</div>
+
+<div [hidden]="show" id = 'chartDispay'>
+  <div id="chartContainer" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div>
+</div>

@@ -1,0 +1,28 @@
+import { AfterViewInit, OnDestroy, DoCheck, EventEmitter, ElementRef, KeyValueDiffers } from '@angular/core';
+import 'daterangepicker';
+import { DaterangepickerConfig } from "./ng2-daterangepicker.service";
+export declare class DaterangepickerComponent implements AfterViewInit, OnDestroy, DoCheck {
+    private input;
+    private config;
+    private differs;
+    private activeRange;
+    private targetOptions;
+    private _differ;
+    datePicker: any;
+    options: any;
+    selected: EventEmitter<any>;
+    cancelDaterangepicker: EventEmitter<any>;
+    applyDaterangepicker: EventEmitter<any>;
+    hideCalendarDaterangepicker: EventEmitter<any>;
+    showCalendarDaterangepicker: EventEmitter<any>;
+    hideDaterangepicker: EventEmitter<any>;
+    showDaterangepicker: EventEmitter<any>;
+    constructor(input: ElementRef, config: DaterangepickerConfig, differs: KeyValueDiffers);
+    ngAfterViewInit(): void;
+    ngDoCheck(): void;
+    ngOnDestroy(): void;
+    private render;
+    private callback;
+    private destroyPicker;
+    private attachEvents;
+}

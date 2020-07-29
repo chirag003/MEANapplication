@@ -87,5 +87,8 @@ removeImage() {
     this.userService.deleteToken();
     this.router.navigate(['/login']);
   }
+  onGraph(){
+    this.router.navigate(['/graph']);
+  }
 
 }

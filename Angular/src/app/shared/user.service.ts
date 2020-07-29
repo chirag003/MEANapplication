@@ -13,7 +13,6 @@ export class UserService {
     email: '',
     password: ''
   };
-
   noAuthHeader = { headers: new HttpHeaders({ 'NoAuth': 'True' }) };
 
   constructor(private http: HttpClient) { }
@@ -32,11 +31,19 @@ export class UserService {
     return this.http.get(environment.apiBaseUrl + '/userProfile');
   }
 
+  showData(data){
+    return this.http.post(environment.apiBaseUrl + '/showData' , data, this.noAuthHeader);
+  }
+
 
   //Helper Methods
 
   setToken(token: string) {
     localStorage.setItem('token', token);
+  }
+
+  setGraphData(data:string){
+    localStorage.setItem('data',data);
   }
 
   getToken() {

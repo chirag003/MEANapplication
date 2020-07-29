@@ -1,0 +1,4 @@
+export declare class DaterangepickerConfig {
+    settings: any;
+    constructor();
+}
