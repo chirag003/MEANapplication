@@ -10,7 +10,7 @@ module.exports.dataExtractor = async (data) => {
   var res = {
     data: []
   }
-  
+
   return new Promise(async function (resolve, reject) {
     var model = {}
 
@@ -214,10 +214,10 @@ module.exports.dataExtractor = async (data) => {
       if (responseArr.length > 0) {
 
         for (let i = 0; i <= diff; i++) {
-          totalArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('DD MMM, YYYY'), y: totalMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
-          acceptArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('DD MMM, YYYY'), y: acceptMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
-          rejectArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('DD MMM, YYYY'), y: rejectMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
-          errArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('DD MMM, YYYY'), y: errMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
+          totalArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('MMM, YYYY'), y: totalMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
+          acceptArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('MMM, YYYY'), y: acceptMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
+          rejectArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('MMM, YYYY'), y: rejectMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
+          errArr.push({ label: moment(data.startDate, 'YYYY-MM-DD').add(i, 'days').format('MMM, YYYY'), y: errMap.get(moment(data.startDate, "YYYY-MM-DD").add(i, 'days').format('MM/DD/YYYY')) || 0 })
         }
 
         var newAcceptArr = [], newRejectArr = [], newTotalArr = [], newErrArr = []

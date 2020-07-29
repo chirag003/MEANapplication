@@ -34,7 +34,7 @@ export class GraphComponent implements OnInit {
   
       await this.userService.showData(this.data).subscribe(
         res=>{
-          console.log(res)
+          if(res['data'].length){
           let chart = new CanvasJS.Chart("chartContainer",{
             theme:"light3",
             animationEnabled: true,
@@ -53,9 +53,10 @@ export class GraphComponent implements OnInit {
             data: res['data']
           });
           chart.render();
+          this.show = false
+          }
         }
       )
-     this.show = false
     })
   }
 
